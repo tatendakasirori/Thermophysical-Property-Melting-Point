@@ -1,3 +1,5 @@
 venv
 submission_lightgbm.csv
 submission_xgboost.csv
+submission_lightgbm_enhanced.csv
+submission_xgboost_enhanced.csv
