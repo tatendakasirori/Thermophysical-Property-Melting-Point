@@ -58,3 +58,7 @@ submission.to_csv('submission.csv', index=False)
 - **Group features**: Integer counts representing molecular substructures - can be used directly for tree-based models
 - **Recommended models**: XGBoost, LightGBM, or ensemble methods for this tabular regression task
 - **Validation**: Use k-fold cross-validation on training data; track RMSE/MAE
+
+- **Running Notebooks**:
+Do not make a seperate _executed notebook
+I will personaly run any notebooks myself
