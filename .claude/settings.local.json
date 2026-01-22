@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venvScriptspip.exe install torch --index-url https://download.pytorch.org/whl/cpu)",
+      "Bash(\"C:/Users/tkasiror/Desktop/Thermophysical Property Melting Point/venv/Scripts/python.exe\" --version)",
+      "Bash(\"C:/Users/tkasiror/Desktop/Thermophysical Property Melting Point/venv/Scripts/pip.exe\" install torch torchvision --index-url https://download.pytorch.org/whl/cpu)",
+      "Bash(\"C:/Users/tkasiror/Desktop/Thermophysical Property Melting Point/venv/Scripts/pip.exe\" install torch)",
+      "Bash(python -c:*)",
+      "Bash(venvScriptspython -c \"\nfrom chemprop.data import MoleculeDatapoint\nimport numpy as np\n\n# Create a test datapoint\ndp = MoleculeDatapoint.from_smi\\(''CCO'', y=np.array\\([1.0]\\), x_d=np.array\\([1.0, 2.0]\\)\\)\n\n# Print all attributes\nprint\\(''Attributes of MoleculeDatapoint:''\\)\nfor attr in dir\\(dp\\):\n    if not attr.startswith\\(''_''\\):\n        try:\n            val = getattr\\(dp, attr\\)\n            if not callable\\(val\\):\n                print\\(f''  {attr}: {type\\(val\\).__name__} = {val}''\\)\n        except:\n            pass\n\")",
+      "Bash(./venv/Scripts/python.exe:*)"
+    ]
+  }
+}
