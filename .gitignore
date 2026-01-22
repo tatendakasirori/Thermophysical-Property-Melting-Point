@@ -5,3 +5,5 @@ submission_lightgbm_enhanced.csv
 submission_xgboost_enhanced.csv
 .gitignore
 submission_gnn.csv
+submission_stacking_ensemble.csv
+submission_hybrid_gnn.csv
